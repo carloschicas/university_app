@@ -1,0 +1,4 @@
+<li><%= link_to 'Courses', root_path %></li>
+<% if logged_in? %>
+  <li><%= link_to 'Students', students_path %></li>
+<% end %>
