@@ -6,8 +6,11 @@
         <p><%= "Email: #{@student.email}" %></p>
         <p>Course Enrollments: None</p>
       </div>
+      <div class="card-action">
+        <%= link_to 'Edit profile', edit_student_path(@student) %>
+      </div>
     </div>
   </div>
 </div>
 
-<h4>Current enrollments</h4>
+<h5>Current enrollments</h5>
